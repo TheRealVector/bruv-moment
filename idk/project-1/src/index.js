@@ -1,10 +1,10 @@
-//im stopping with electron. no. bad idea
-//Imma just fuck leave this be 4 a bit till i figure smth out
+console.time('test')
+
 
 let json = {a: 1, b: 2, c: 3}
 switch(json.a) {
    case 1:
-
+   console.timeEnd('test');
    break;
    case 2:
 
@@ -16,3 +16,13 @@ switch(json.a) {
 
    break;
 }
+
+if(json.a === 1) {
+  console.timeEnd('test')
+} else if(json.a === 2) {
+
+} else if(json.a === 3) {
+
+}
+
+//Comparing switch and else if chains, hmmmm
